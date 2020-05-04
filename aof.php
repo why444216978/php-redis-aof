@@ -2,7 +2,6 @@
 class RedisAof
 {
 	private $redis = [];
-	private $statsArr = [];
 	private $rewritePercentage = 1;
 
 	public function __construct($configs)
